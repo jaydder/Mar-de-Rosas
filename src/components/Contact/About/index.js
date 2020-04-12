@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-import {Container} from "./style";
+import { Container } from "./style";
 
 class About extends Component {
   render() {
@@ -9,10 +9,15 @@ class About extends Component {
         <div className="about-wrapper">
           <div className="about-text">
             <div className={this.props.className}>
-              <div className="triangulo"> </div>
+              <div className="triangulo">
+                <section>
+                  <h1>Contato</h1>
+                </section>
+              </div>
             </div>
           </div>
         </div>
+
       </Container>
     )
   }

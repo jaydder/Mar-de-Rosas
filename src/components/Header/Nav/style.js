@@ -9,7 +9,6 @@ export const Container = styled.div`
   }
   
   ul li {
-     margin-left: 10px;
      font-size: 15px;
      padding: 12px;
   }
@@ -18,6 +17,7 @@ export const Container = styled.div`
      text-decoration: none;
      color: #FFF;
      opacity: 0.5;
+     font-family: 'Roboto Mono', monospace;
   }
  
  ul li a:hover {

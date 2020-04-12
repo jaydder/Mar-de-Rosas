@@ -16,6 +16,10 @@ class Contato extends Component {
       this.setState({
         className: 'show',
       })
+    } else {
+      this.setState({
+        className: 'hidden',
+      })
     }
   }
 
@@ -29,8 +33,20 @@ class Contato extends Component {
         <div>
           <About className={this.state.className} />
         </div>
-        <div>
-          <h1> Msadasjd </h1>
+        <div className="content fadeIn">
+        
+          <form >
+            <input
+              placeholder="Assunto"
+            />
+            <textarea
+              placeholder="Descrição"
+            />
+            <input
+              placeholder="Email"
+            />
+            <button type="submit" className="button"> Enviar</button>
+          </form>
         </div>
       </Container>
     );

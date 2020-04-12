@@ -2,31 +2,48 @@ import styled from "styled-components";
 export const Container = styled.div `
   .card-father {
     width: 100%;
-    height: 500px;
+    height: 450px;
     display: flex;
     flex-direction: row;
 }
 .card {
     width: 30%;
-    height: 400px;
     margin: auto;
-    border:  black;
-    border: 2px groove rgba(19, 137, 255, 0.2);
-    border-radius: 5px;
     box-shadow: none;
-}
+    }
+
 .card div {
     width: 100%;
-    height: 70%;
-    background-color: aqua;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+    margin-bottom: -40px;
+}
+
+
 .card p {
-    background: rgb(223, 223, 223);
-    height: 30%;
+    height: 10%;
+    max-height: 60px;
     text-align: justify;
     display: flex;
     align-items: center;
     padding: 0 20px;
+}
+
+.card h3 {
+    display: flex;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
 }
 `;

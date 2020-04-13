@@ -3,14 +3,24 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  background: #f3f3f3;
+  background: rgb(226,195,232);
+  background: linear-gradient(0deg, rgba(226,195,232,1) 0%, rgba(238,185,255,1) 100%);
 
 .card-father {
   width: 100%;
-  height: 420px;
+  height: 288px;
   display: flex;
-  flex-direction: row;
 }
+
+.card div img {
+  width: 163px;
+  height: 163px;
+  border-radius: 100%;
+  display:flex;
+  align-items: center;
+  background-size: 100vw;
+}
+
 .card {
   width: 30%;
   margin: auto;
@@ -19,36 +29,29 @@ export const Container = styled.div`
 
 .card div {
   width: 100%;
-  height: 60px;
+  height: 129px;
   display: flex;
-  align-items: center;
   justify-content: center;
+}
 
+.card-text {
+  height: 120px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
 }
 
 
 h1{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  margin-bottom: -10px;
+  margin-bottom: 20px;
 }
 
 
 .card p {
-  height: 10%;
-  max-height: 60px;
   text-align: justify;
-  display: flex;
-  align-items: center;
   padding: 0 20px;
 }
 
-.card h3 {
-  display: flex;
-  padding: 0 30px;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 12px;
-}
 `;

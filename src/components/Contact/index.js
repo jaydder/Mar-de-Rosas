@@ -12,7 +12,7 @@ class Contato extends Component {
   }
 
   handleScroll() {
-    if (document.documentElement.scrollTop > 430) {
+    if (document.documentElement.scrollTop > 1230) {
       this.setState({
         className: 'show',
       })
@@ -33,8 +33,7 @@ class Contato extends Component {
         <div>
           <About className={this.state.className} />
         </div>
-        <div className="content fadeIn">
-        
+        <div className="content">
           <form >
             <input
               placeholder="Assunto"

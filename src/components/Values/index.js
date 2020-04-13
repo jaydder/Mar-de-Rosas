@@ -6,7 +6,7 @@ import {GiPhotoCamera} from 'react-icons/gi'
 import { FaHandHoldingHeart} from 'react-icons/fa'
 import { IoMdRestaurant} from 'react-icons/io'
 
-class Card extends Component {
+class Values extends Component {
   render() {
     return (
       <Container>
@@ -36,4 +36,4 @@ class Card extends Component {
   }
 }
 
-export default Card;
+export default Values;

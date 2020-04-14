@@ -13,15 +13,16 @@ body {
   font: 400 14px Roboto, sans-serif;
   background: #f0f0f5;
   -webkit-font-smoothing: antialiased;
-
 }
 
-input, button, textarea {
+input,
+button,
+textarea {
   font: 400 15px Roboto, sans-serif;
 }
 
 button {
-  cursor:pointer;
+  cursor: pointer;
 }
 
 form input {
@@ -47,10 +48,10 @@ form textarea {
 .button {
   width: 100%;
   height: 45px;
-  background: linear-gradient(to right,#296fa2,#2b6da1,#275e85,#264d6e);
+  background: linear-gradient(to right, #296fa2, #2b6da1, #275e85, #264d6e);
   border: 0;
   border-radius: 8px;
-  color: #FFF;
+  color: #fff;
   font-weight: 700;
   margin-top: 16px;
   display: inline-block;
@@ -65,17 +66,19 @@ form textarea {
 }
 
 @keyframes fadeIn {
-0% { opacity: 0; font-size: 1px;}
- 
-100% { opacity: 1; }
+  0% {
+    opacity: 0;
+    font-size: 0.1pt;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fadeIn {
-animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 2s ease-in-out;
 }
 
 .title {
-  font-family: merienda;
-  font-weight: 500;
-  font-size: 50px;
+  font: 500 50px Merienda, sans-serif;
 }

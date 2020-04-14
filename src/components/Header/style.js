@@ -15,5 +15,4 @@ export const Container = styled.div`
     margin-left: 12px;
     font-family: merienda;
   }
-
 `;

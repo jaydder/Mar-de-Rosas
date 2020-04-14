@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 
-import { Container, Text, Cortina } from "./style";
+import { Container, Text, Cortina } from './style';
 
-import Header from '../Header'
+import Header from '../Header';
 
 export default class Banner extends Component {
   render() {
     return (
-        <Container>
-      <Cortina>
+      <Container>
+        <Cortina>
           <Header />
-          <Text className="fadeIn">
-            <h1> Mar de Rosas Decoração  </h1>
-            <h2> &  </h2>
+          <Text>
+            <h1> Mar de Rosas Decoração </h1>
+            <h2 className="fadeIn"> & </h2>
             <h1> Organização de eventos </h1>
 
-            <h3> Tornando seus sonhos em realidade</h3>
+            <h3 className="fadeIn"> Tornando seus sonhos em realidade</h3>
           </Text>
         </Cortina>
-        </Container>
+      </Container>
     );
   }
 }

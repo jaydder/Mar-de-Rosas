@@ -1,8 +1,8 @@
 import React from 'react';
 
-import crush1 from '../../images/crush-1.png';
-import crush2 from '../../images/crush-2.png';
-import crush3 from '../../images/crush-3.png';
+import candy1 from '../../images/candy-1.png';
+import candy2 from '../../images/candy-2.png';
+import candy3 from '../../images/candy-3.png';
 
 import savory1 from '../../images/savory-1.png';
 import savory2 from '../../images/savory-2.png';
@@ -17,22 +17,22 @@ export default function Gastronomic() {
       <div className="container">
         <div className="box">
           <div className="imgBox">
-            <img src={crush1} alt="" />
+            <img src={candy1} alt="" />
           </div>
           <div className="details">
             <div className="content">
-              <h2> What is Lorem </h2>
+              <h2> Tradicionais </h2>
               <p>Loem upsnddskjnkcnwekljdcnskc dasfruiehfnkdsjcskdnslkdfnfdf</p>
             </div>
           </div>
         </div>
         <div className="box">
           <div className="imgBox">
-            <img src={crush2} alt="" />
+            <img src={candy2} alt="" />
           </div>
           <div className="details">
             <div className="content">
-              <h2> What is Lorem IPSUM</h2>
+              <h2> Glaciados </h2>
               <p>
                 Loem upsnddskjnkcnwekljdcnskcksajndas
                 dasfruiehfnkdsjcskdnslkdfnfdf
@@ -42,11 +42,11 @@ export default function Gastronomic() {
         </div>
         <div className="box">
           <div className="imgBox">
-            <img src={crush3} alt="" />
+            <img src={candy3} alt="" />
           </div>
           <div className="details">
             <div className="content">
-              <h2> What is Lorem </h2>
+              <h2> Guloseimas </h2>
               <p>
                 Loem upsnddskjnkcnwekljdcnskcksajndas
                 dasfruiehfnkdsjcskdnslkdfnfdf
@@ -62,7 +62,7 @@ export default function Gastronomic() {
           </div>
           <div className="details">
             <div className="content">
-              <h2> What is Lorem </h2>
+              <h2> Salgadinhos </h2>
               <p>Loem upsnddskjnkcnwekljdcnskc dasfruiehfnkdsjcskdnslkdfnfdf</p>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Gastronomic() {
           </div>
           <div className="details">
             <div className="content">
-              <h2> What is Lorem IPSUM</h2>
+              <h2> Buffets</h2>
               <p>
                 Loem upsnddskjnkcnwekljdcnskcksajndas
                 dasfruiehfnkdsjcskdnslkdfnfdf
@@ -87,7 +87,7 @@ export default function Gastronomic() {
           </div>
           <div className="details">
             <div className="content">
-              <h2> What is Lorem </h2>
+              <h2> Churrascos </h2>
               <p>
                 Loem upsnddskjnkcnwekljdcnskcksajndas
                 dasfruiehfnkdsjcskdnslkdfnfdf

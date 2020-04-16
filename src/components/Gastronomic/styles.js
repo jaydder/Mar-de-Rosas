@@ -9,15 +9,15 @@ export const Container = styled.div`
     rgba(226, 195, 232, 1) 0%,
     rgba(238, 185, 255, 1) 100%
   );
-
   h1 {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
   }
+
   .container {
     width: 80%;
-    margin: 40px auto;
+    margin: 35px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,18 +28,16 @@ export const Container = styled.div`
     position: relative;
     width: 250px;
     height: 180px;
-    margin-right: 58px;
-    margin-bottom: 60px;
+    margin-right: 45px;
+    margin-bottom: 55px;
   }
 
   .container .box .imgBox {
     position: absolute;
     overflow: hidden;
-    width: 300px;
-    height: 250px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px black;
-    margin-bottom: 20px;
+    width: 290px;
+    height: 240px;
+    border-radius: 4px;
   }
 
   .container .box .imgBox img {
@@ -56,8 +54,8 @@ export const Container = styled.div`
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 35px;
-    left: 25px;
+    top: 30px;
+    left: 20px;
     bottom: 20px;
     right: 20px;
     background: rgba(0, 0, 0, 0.8);

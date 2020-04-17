@@ -48,7 +48,7 @@ form textarea {
 .button {
   width: 100%;
   height: 45px;
-  background: linear-gradient(to right, #296fa2, #2b6da1, #275e85, #264d6e);
+  background: linear-gradient(to right, #d8345f, #e58a8a, #ccafaf, #588da8);
   border: 0;
   border-radius: 8px;
   color: #fff;
@@ -81,4 +81,15 @@ form textarea {
 
 .title {
   font: 500 50px Merienda, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.background {
+  background: rgb(226, 195, 232);
+  background: linear-gradient(
+    0deg,
+    rgba(226, 195, 232, 1) 0%,
+    rgba(238, 185, 255, 1) 100%
+  );
 }

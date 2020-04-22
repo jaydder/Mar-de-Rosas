@@ -1,14 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 40vh;
-
   h1 {
-    font-size: 30px;
-    margin-top: 10px;
   }
 
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
   div {
     width: 25%;
     height: 30vh;
@@ -29,5 +29,28 @@ export const Container = styled.div`
 
   div span + span {
     margin-top: 15px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+
+  a:hover {
+    background: linear-gradient(
+      to right,
+      rgba(226, 195, 232, 1) 0%,
+      rgba(238, 185, 255, 1) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font: {
+      family: $font;
+    }
+    text-shadow: 0px 0px 1px black;
+  }
+  a p {
+    margin-left: 20px;
   }
 `;

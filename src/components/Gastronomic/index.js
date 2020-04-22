@@ -1,18 +1,18 @@
-import React from 'react';
+import React from "react";
 
-import candy1 from '../../images/candy-1.png';
-import candy2 from '../../images/candy-2.png';
-import candy3 from '../../images/candy-3.png';
+import candy1 from "../../images/candy-1.png";
+import candy2 from "../../images/candy-2.png";
+import candy3 from "../../images/candy-3.png";
 
-import savory1 from '../../images/savory-1.png';
-import savory2 from '../../images/savory-2.png';
-import savory3 from '../../images/savory-3.png';
+import savory1 from "../../images/savory-1.png";
+import savory2 from "../../images/savory-2.png";
+import savory3 from "../../images/savory-3.png";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
 export default function Gastronomic() {
   return (
-    <Container>
+    <Container className="gastronomic">
       <h1 className="title"> Gastronomia </h1>
       <div className="container">
         <div className="box">

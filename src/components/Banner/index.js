@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { Container, Text, Cortina } from './style';
+import { Container, Text, Cortina } from "./style";
 
-import Header from '../Header';
+import Header from "../Header";
 
 export default class Banner extends Component {
   render() {
     return (
-      <Container>
+      <Container className="main">
         <Cortina>
           <Header />
           <Text>

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 import Nav from "./Nav";
 
@@ -9,10 +9,9 @@ export default class Header extends Component {
     return (
       <Container>
         <header>
-          <h3> Mar de rosas</h3>
-          < Nav />
+          <Nav />
         </header>
       </Container>
-    )
+    );
   }
 }

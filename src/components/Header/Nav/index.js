@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Container } from './style';
+import React, { Component } from "react";
+import { Container } from "./style";
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-scroll";
 
 class Nav extends Component {
   render() {
@@ -9,22 +9,70 @@ class Nav extends Component {
       <Container>
         <ul>
           <li>
-            <Link to=""> Home</Link>
+            <Link
+              activeClass="active"
+              to="main"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              Home
+            </Link>
           </li>
           <li>
-            <Link to=""> Valores </Link>
+            <Link
+              activeClass="active"
+              to="values"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}>
+              Valores
+            </Link>
           </li>
           <li>
-            <a href=" "> Quem Somos </a>
+            <Link
+              activeClass="active"
+              to="indentity"
+              spy={true}
+              smooth={true}
+              offset={-45}
+              duration={500}>
+              Quem Somos
+            </Link>
           </li>
           <li>
-            <a href=" "> Gastronomia </a>
+            <Link
+              activeClass="active"
+              to="gastronomic"
+              spy={true}
+              smooth={true}
+              offset={-0}
+              duration={500}>
+              Gastronomia
+            </Link>
           </li>
           <li>
-            <a href=" "> Eventos </a>
+            <Link
+              activeClass="active"
+              to="party"
+              spy={true}
+              smooth={true}
+              offset={-60}
+              duration={500}>
+              Eventos
+            </Link>
           </li>
           <li>
-            <a href=" "> Contato </a>
+            <Link
+              activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}>
+              Contato
+            </Link>
           </li>
         </ul>
       </Container>

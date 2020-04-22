@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
-import { Container } from './styles';
+import { Container } from "./styles";
 
 export default function Kid() {
   return (
-    <Container className="background">
+    <Container className="background indentity">
       <h1 className="title"> Quem Somos ?</h1>
       <div className="content">
         <div>

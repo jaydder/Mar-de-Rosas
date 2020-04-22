@@ -1,11 +1,11 @@
-import React from 'react';
-import Slider from 'react-slick';
-import { settings } from './settings.slider';
-import { Container, Page } from './styles';
+import React from "react";
+import Slider from "react-slick";
+import { settings } from "./settings.slider";
+import { Container, Page } from "./styles";
 
 export default function Party() {
   return (
-    <Container className="background">
+    <Container className="background party">
       <h1 className="title"> Eventos </h1>
       <section>
         <div>

@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-import { Container } from './style';
+import { Container } from "./style";
 
-import { GiPhotoCamera } from 'react-icons/gi';
-import { FaHandHoldingHeart } from 'react-icons/fa';
-import { IoMdRestaurant } from 'react-icons/io';
+import { GiPhotoCamera } from "react-icons/gi";
+import { FaHandHoldingHeart } from "react-icons/fa";
+import { IoMdRestaurant } from "react-icons/io";
 
 class Values extends Component {
   render() {
     return (
-      <Container>
+      <Container className="values">
         <h1 className="title"> Valores </h1>
         <div className="card-father">
           <div className="card">

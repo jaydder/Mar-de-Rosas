@@ -7,12 +7,15 @@ export const Container = styled.div`
     font-weight: bold;
     color: #fff;
     display: flex;
+    float: initial;
+    position: relativae;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   header h3 {
-    margin-left: 12px;
+    margin-left: 15px;
     font-family: merienda;
+    font-size: 30px;
   }
 `;

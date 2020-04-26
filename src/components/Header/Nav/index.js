@@ -36,7 +36,7 @@ class Nav extends Component {
               to="indentity"
               spy={true}
               smooth={true}
-              offset={-45}
+              offset={0}
               duration={500}>
               Quem Somos
             </Link>

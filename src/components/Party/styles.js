@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
@@ -10,26 +10,25 @@ export const Container = styled.div`
   .slick-slider .slick-list,
   .slick-slider .slick-track {
     border-radius: 12px;
+    width: 60%;
   }
   section {
     display: flex;
+    flex-direction: row;
   }
   div {
-    width: 70%;
+    width: 50%;
   }
   .center {
     margin-left: 30px;
-    width: 100%;
+    width: 73vw;
   }
 
   .text {
     width: 28%;
     align-self: center;
     height: 50%;
-    margin-right: 51px;
-  }
-  .button {
-    width: 60%;
+    margin-left: 86px;
   }
 `;
 

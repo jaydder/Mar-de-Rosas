@@ -2,7 +2,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   .card-father {
     width: 100%;
-    height: 450px;
+    height: 57vh;
     display: flex;
     flex-direction: row;
   }

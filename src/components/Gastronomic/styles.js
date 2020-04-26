@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   .container {
     width: 80%;
-    margin: 35px auto;
+    margin: 65px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

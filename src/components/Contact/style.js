@@ -53,4 +53,12 @@ export const Container = styled.div`
   a p {
     margin-left: 20px;
   }
+
+  div p {
+    align-self: flex-end;
+    position: relative;
+    top: 50%;
+    margin-right: 9px;
+    margin-bottom: 6px;
+  }
 `;

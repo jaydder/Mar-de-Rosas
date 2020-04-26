@@ -34,4 +34,11 @@ export const Container = styled.div`
 
 export const Page = styled.div`
   width: 100%;
+
+  img {
+    width: 700px;
+    height: 400px;
+    background-size: 100%;
+    filter: brightness(1.15) contrast(1.2);
+  }
 `;

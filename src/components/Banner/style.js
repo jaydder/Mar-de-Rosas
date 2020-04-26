@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import img from '../../images/banner_home.png';
+import styled from "styled-components";
+import img from "../../images/banner_home.png";
 
 export const Container = styled.div`
   background: url(${img});
@@ -7,6 +7,7 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  filter: brightness(1.15) contrast(1.1);
   width: 100%;
   height: 100vh;
   color: #fff;

@@ -19,7 +19,6 @@ export const Container = styled.div`
     align-items: start;
     border-radius: 12px;
   }
-
   div span {
     font-size: 20px;
     text-align: justify;

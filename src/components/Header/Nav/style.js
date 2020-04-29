@@ -26,4 +26,14 @@ export const Container = styled.div`
     opacity: 1;
     border-bottom: 1px solid black;
   }
+
+  @media (max-width: 650px) {
+    ul li {
+      padding: 16px;
+    }
+
+    ul li a {
+      font-size: 16px;
+    }
+  }
 `;

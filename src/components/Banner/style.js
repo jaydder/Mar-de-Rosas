@@ -1,13 +1,13 @@
 import styled from "styled-components";
-import img from "../../images/banner_home.png";
+import img from "../../images/banner_home2.png";
 
 export const Container = styled.div`
   background: url(${img});
-  background-position: center top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  filter: brightness(1.15) contrast(1.1);
+  filter: brightness(1.25) saturate(1.2);
   width: 100%;
   height: 100vh;
   color: #fff;
@@ -23,6 +23,15 @@ export const Text = styled.section`
   h1 {
     font-size: 40px;
     margin-bottom: 12px;
+  }
+
+  @media (max-width: 650px) {
+    padding: 121px 100px;
+
+    h1 {
+      font-size: 34px;
+      text-align: center;
+    }
   }
 `;
 

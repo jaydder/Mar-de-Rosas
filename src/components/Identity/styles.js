@@ -1,6 +1,5 @@
 import styled from "styled-components";
 export const Container = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
   width: 100%;
   height: 100vh;
 
@@ -28,10 +27,14 @@ export const Container = styled.div`
     margin: 0 50px 0 0;
   }
 
-  .text span {
-    font-size: 30px;
+  .text section {
+    font-size: 20px;
     text-align: justify;
-    font-family: "Indie Flower", cursive;
+    font-family: "Libre Baskerville", serif;
+  }
+
+  section p + p {
+    margin-top: 15px;
   }
 
   .content {

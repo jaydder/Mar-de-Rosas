@@ -32,6 +32,9 @@ export const Text = styled.section`
       font-size: 34px;
       text-align: center;
     }
+    h3 {
+      text-align: center;
+    }
   }
 `;
 

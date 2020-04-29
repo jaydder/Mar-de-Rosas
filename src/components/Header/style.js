@@ -18,4 +18,9 @@ export const Container = styled.div`
     font-family: merienda;
     font-size: 30px;
   }
+  @media (max-width: 650px) {
+    header {
+      justify-content: flex-end;
+    }
+  }
 `;

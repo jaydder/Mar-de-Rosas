@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 100%;
   header {
     height: 62px;
     font-size: 18px;
+
     font-weight: bold;
     color: #fff;
     display: flex;
@@ -20,7 +22,6 @@ export const Container = styled.div`
   }
   @media (max-width: 650px) {
     header {
-      justify-content: flex-end;
     }
   }
 `;

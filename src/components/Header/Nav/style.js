@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  width: 100%;
   ul {
     display: flex;
     flex-direction: row;
@@ -31,12 +32,13 @@ export const Container = styled.div`
   }
 
   @media (max-width: 650px) {
-    .wrapper {
-    }
     nav {
       background: #262626;
       display: flex;
-      justify-content: start;
+      text-align: center;
+      margin-bottom: 16px;
+      margin-right: 16px;
+      width: 100%;
     }
     nav a {
       text-decoration: none;
@@ -74,10 +76,11 @@ export const Container = styled.div`
       right: 0;
       display: none;
     }
+
     nav ul li:hover > ul,
     nav ul li:focus > ul,
     nav ul li ul:focus,
-    nav ul li ul:hover {
+    nav ul li ul:active {
       opacity: 1;
       display: block;
     }

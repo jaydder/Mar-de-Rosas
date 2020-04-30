@@ -82,41 +82,31 @@ export const Container = styled.div`
   @media (max-width: 650px) {
     .container .box {
       position: relative;
-      width: 150px;
-      height: 180px;
-      margin-bottom: 55px;
+      height: 61px;
+      right: 60px;
     }
 
     .container .box .imgBox {
       position: absolute;
       overflow: hidden;
       width: 200px;
-      height: 150px;
+      height: 104px;
       border-radius: 4px;
     }
 
     .container .box .details {
-      position: absolute;
       width: 70%;
       height: 100%;
-      top: 0px;
-      bottom: -4px;
-      background: rgba(0, 0, 0, 0.8);
-      -webkit-transform: scaleY(0);
-      -ms-transform: scaleY(0);
-      transform: scaleY(0);
-      -webkit-transition: -webkit-transform 0.5s;
-      -webkit-transition: transform 0.5s;
-      transition: transform 0.5s;
-      border-radius: 10px;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: center;
-      -webkit-justify-content: center;
-      -ms-flex-pack: center;
-      justify-content: center;
+      left: 100%;
+      top: 17px;
+    }
+    .container {
+      margin: 0px auto;
+      flex-direction: column;
+    }
+
+    h2 {
+      margin-bottom: 30px;
     }
   }
 `;

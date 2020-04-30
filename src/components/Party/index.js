@@ -49,13 +49,16 @@ export default function Party() {
           </Slider>
         </div>
         <div className='text'>
-          <h1>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-          </h1>
+          <spam>
+            <p>
+              Trabalhamos com todos os tipos de eventos: Infantil, 15 anos,
+              Formatura, Casamento, Bodas...
+            </p>
+            <p>
+              Nossos Eventos contam com: moveis, arranjos naturais, e
+              artificiais, balôes ...
+            </p>
+          </spam>
         </div>
       </section>
     </Container>

@@ -6,7 +6,6 @@ export const settings = {
   autoplay: true,
   autoplaySpeed: 1600,
   className: 'center',
-  centerPadding: '30px',
   daptiveHeight: true,
   fade: true,
   responsive: [

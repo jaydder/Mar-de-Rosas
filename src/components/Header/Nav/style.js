@@ -7,6 +7,7 @@ export const Container = styled.div`
     flex-direction: row;
     list-style: none;
     align-items: center;
+    justify-content: center;
   }
 
   ul li {

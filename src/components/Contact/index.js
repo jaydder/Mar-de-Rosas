@@ -6,7 +6,7 @@ import { FaFacebookSquare, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function index() {
   return (
-    <Container className='contact'>
+    <Container className='contact background-inverted'>
       <h1 className='title'> Contatos </h1>
       <section>
         <div>

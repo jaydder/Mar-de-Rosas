@@ -88,6 +88,7 @@ form textarea {
   background: linear-gradient(
     0deg,
     rgba(243, 238, 245, 0.4) 0%,
-    rgb(239, 210, 249) 100%
+    rgb(249, 236, 253) 100%
   );
+  border-radius: 5px;
 }

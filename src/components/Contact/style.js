@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
+  height: 44vh;
   h1 {
   }
 
@@ -12,7 +13,7 @@ export const Container = styled.div`
   div {
     width: 25%;
     height: 30vh;
-    margin: 0 0 auto;
+    margin: 25px 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: center;

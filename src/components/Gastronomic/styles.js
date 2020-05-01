@@ -35,6 +35,7 @@ export const Container = styled.div`
   .container .box .imgBox img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
     transition: transform 2s;
   }
 
@@ -108,5 +109,13 @@ export const Container = styled.div`
     h2 {
       margin-bottom: 30px;
     }
+  }
+  @media (max-width: 450px) {
+    .container .box .details {
+      left: 88%;
+    }
+  }
+  @media (max-height: 650px) {
+    height: 125vh;
   }
 `;

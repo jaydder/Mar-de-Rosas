@@ -9,10 +9,10 @@ import { IoMdRestaurant } from "react-icons/io";
 class Values extends Component {
   render() {
     return (
-      <Container className="values">
-        <h1 className="title"> Valores </h1>
-        <div className="card-father">
-          <div className="card">
+      <Container className='values background-inverted'>
+        <h1 className='title'> Valores </h1>
+        <div className='card-father'>
+          <div className='card'>
             <div>
               <GiPhotoCamera size={60} />
             </div>
@@ -22,7 +22,7 @@ class Values extends Component {
               nisi sapien, porta at mattis et, tincidunt in ligula
             </p>
           </div>
-          <div className="card">
+          <div className='card'>
             <div>
               <FaHandHoldingHeart size={60} />
             </div>
@@ -33,7 +33,7 @@ class Values extends Component {
               rhoncus venenatis. Ut vest
             </p>
           </div>
-          <div className="card">
+          <div className='card'>
             <div>
               <IoMdRestaurant size={60} />
             </div>

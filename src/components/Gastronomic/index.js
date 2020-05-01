@@ -12,7 +12,7 @@ import { Container } from "./styles";
 
 export default function Gastronomic() {
   return (
-    <Container className='gastronomic'>
+    <Container className='gastronomic background-inverted'>
       <h1 className='title'> Gastronomia </h1>
       <div className='container'>
         <div className='box'>

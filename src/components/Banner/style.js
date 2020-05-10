@@ -1,25 +1,18 @@
 import styled from "styled-components";
-import img from "../../images/banner_home2.png";
 
-export const Container = styled.div`
-  background: url(${img});
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  filter: brightness(1.25) saturate(1.2);
-  width: 100%;
-  height: 100vh;
-  color: #fff;
-`;
+export const Container = styled.div``;
 
 export const Text = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #fff;
   font-family: merienda;
-  padding: 111px 100px;
-
+  justify-content: center;
+  padding: 210px 100px;
+  h3 {
+    font-size: 1rem;
+  }
   h1 {
     font-size: 40px;
     margin-bottom: 12px;

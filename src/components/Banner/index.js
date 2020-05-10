@@ -7,15 +7,14 @@ import Header from "../Header";
 export default class Banner extends Component {
   render() {
     return (
-      <Container className="main">
+      <Container className='main'>
         <Cortina>
           <Header />
-          <Text>
-            <h1> Mar de Rosas Decoração </h1>
-            <h2 className="fadeIn"> & </h2>
-            <h1> Organização de eventos </h1>
-
-            <h3 className="fadeIn"> Tornando seus sonhos em realidade</h3>
+          <Text className='animate__animated animate__fadeInDown'>
+            <h1>Mar de Rosas Decoração</h1>
+            <h3>&</h3>
+            <h1>Organização de eventos</h1>
+            <h3> Tornando seus sonhos em realidade</h3>
           </Text>
         </Cortina>
       </Container>

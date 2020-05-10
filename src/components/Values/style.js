@@ -1,15 +1,22 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 export const Container = styled.div`
+  height: 90vh;
   .card-father {
     width: 100%;
     height: 57vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
   .card {
-    width: 30%;
+    width: 75%;
+    height: 53%;
     margin: auto;
     box-shadow: none;
+    background: #ffffff24;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 22px;
   }
 
   .card div {
@@ -22,7 +29,7 @@ export const Container = styled.div`
   }
 
   h1 {
-    margin-bottom: -40px;
+    margin-bottom: 14px;
   }
 
   .card p {
@@ -32,6 +39,7 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     padding: 0 20px;
+    justify-content: center;
   }
 
   .card h3 {

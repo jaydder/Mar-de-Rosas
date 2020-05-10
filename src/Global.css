@@ -10,8 +10,15 @@
 
 body {
   font: 400 14px Roboto, sans-serif;
-  background: #f0f0f5;
   -webkit-font-smoothing: antialiased;
+  background: url("../src/images/banner_home2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(1.25) saturate(1.2);
+  width: 100%;
+  height: 100vh;
 }
 
 input,
@@ -64,31 +71,18 @@ form textarea {
   filter: brightness(90%);
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    font-size: 0.1pt;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.fadeIn {
-  animation: fadeIn 2s ease-in-out;
-}
-
 .title {
   font: 500 50px Merienda, cursive;
   display: flex;
   justify-content: center;
+  font-size: 30pt;
 }
 
 .background {
   background: linear-gradient(
     0deg,
-    rgba(243, 238, 245, 0.4) 0%,
-    rgb(249, 236, 253) 100%
+    rgba(243, 238, 245, 0.171) 0%,
+    rgba(247, 247, 247, 0.22) 100%
   );
   border-radius: 5px;
 }

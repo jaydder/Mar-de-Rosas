@@ -6,21 +6,23 @@ import { FaFacebookSquare, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 export default function index() {
   return (
-    <Container className='contact background-inverted'>
+    <Container className='contact background'>
       <h1 className='title'> Contatos </h1>
       <section>
-        <div>
+        <div className='text'>
           <span>
             <FaWhatsapp size={20} title='WhatsApp' />
-            <a href=' '> (51) 98610-8838 </a>
+            <a href='http://api.whatsapp.com/send?1=pt_BR&phone=5551986108838'>
+              (51) 98610-8838
+            </a>
           </span>
           <span>
             <MdEmail size={18} title='Email' />
-            <a href=' '> &ensp;saionaraguine1@gmail.com </a>
+            <a href=''>&ensp;saionaraguine1@gmail.com</a>
           </span>
           <span>
             <FaFacebookSquare size={18} title='Facebook' />
-            <a href='https://www.facebook.com/marderosasdecoracaoeorganizacaodeeventos/'>
+            <a href='https://wwwbackground .facebook.com/marderosasdecoracaoeorganizacaodeeventos/'>
               &ensp; Mar de Rosas
             </a>
           </span>
@@ -30,14 +32,6 @@ export default function index() {
               &ensp;Rua João Dias - 103, Gravataí/RS
             </a>
           </span>
-        </div>
-        <div>
-          <p>
-            developed by{" "}
-            <a href='http://api.whatsapp.com/send?1=pt_BR&phone=5551985976674'>
-              Jaydder Oliveira
-            </a>
-          </p>
         </div>
       </section>
     </Container>

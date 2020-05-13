@@ -7,12 +7,33 @@ import { FaHandHoldingHeart } from "react-icons/fa";
 import { IoMdRestaurant } from "react-icons/io";
 
 class Values extends Component {
+  constructor() {
+    super();
+    this.state = {
+      className: "card",
+      card: "card-father",
+    };
+  }
+  handleScroll() {
+    if (document.documentElement.scrollTop > 120) {
+      this.setState({
+        className: "card animate__animated animate__fadeInLeft",
+      });
+    } else {
+      this.setState({
+        className: "hidden",
+      });
+    }
+  }
+  componentDidMount() {
+    window.onscroll = () => this.handleScroll();
+  }
   render() {
     return (
       <Container className='values background-inverted'>
         <h1 className='title'> Valores </h1>
-        <div className='card-father'>
-          <div className='card'>
+        <div className={this.state.card}>
+          <div className={this.state.className}>
             <div>
               <GiPhotoCamera size={60} />
             </div>
@@ -22,7 +43,7 @@ class Values extends Component {
               nisi sapien, porta at mattis et, tincidunt in ligula
             </p>
           </div>
-          <div className='card'>
+          <div className={this.state.className}>
             <div>
               <FaHandHoldingHeart size={60} />
             </div>
@@ -33,7 +54,7 @@ class Values extends Component {
               rhoncus venenatis. Ut vest
             </p>
           </div>
-          <div className='card'>
+          <div className={this.state.className}>
             <div>
               <IoMdRestaurant size={60} />
             </div>

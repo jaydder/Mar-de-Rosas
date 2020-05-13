@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Nav, NavDropdown, Navbar } from "react-bootstrap";
+import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-scroll";
 
 import { Container } from "./style";
@@ -53,22 +53,9 @@ export default class Header extends Component {
                       to='indentity'
                       spy={true}
                       smooth={true}
-                      offset={0}
+                      offset={175}
                       duration={500}>
                       Quem Somos
-                    </Link>
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link>
-                    <Link
-                      activeClass='active'
-                      to='gastronomic'
-                      spy={true}
-                      smooth={true}
-                      offset={0}
-                      duration={550}>
-                      Gastronomia
                     </Link>
                   </Nav.Link>
                 </Nav.Item>

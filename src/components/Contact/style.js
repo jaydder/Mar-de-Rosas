@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 44vh;
+  height: auto;
   h1 {
   }
 
@@ -10,27 +10,23 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
   }
-  div {
-    width: 25%;
+  .text {
+    width: 100%;
     height: 30vh;
-    margin: 25px 0 auto;
+    margin: 25px 30px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
     border-radius: 12px;
-  }
-  div span {
     font-size: 20px;
     text-align: justify;
     justify-content: center;
     margin-left: 15px;
   }
-
   div span + span {
     margin-top: 15px;
   }
-
   a {
     text-decoration: none;
     color: black;
@@ -49,16 +45,5 @@ export const Container = styled.div`
       family: $font;
     }
     text-shadow: 0px 0px 1px black;
-  }
-  a p {
-    margin-left: 20px;
-  }
-
-  div p {
-    align-self: flex-end;
-    position: relative;
-    top: 50%;
-    margin-right: 9px;
-    margin-bottom: 6px;
   }
 `;

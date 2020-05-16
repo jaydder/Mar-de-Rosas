@@ -2,17 +2,11 @@ import React from "react";
 
 import { Container } from "./styles";
 
-export default function Kid() {
+export default function Identity() {
   return (
-    <Container className='background indentity'>
+    <Container className='background'>
       <h1 className='title'> Quem Somos ?</h1>
       <div className='content'>
-        <div>
-          <img
-            src='https://www.oversodoinverso.com.br/wp-content/uploads/2018/12/0-23.jpg'
-            alt=''
-          />
-        </div>
         <div className='text'>
           <section>
             <p> Um empresa com mais de 15 anos destinada a realizar sonhos!</p>
